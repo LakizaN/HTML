@@ -19,14 +19,13 @@ return elements; }
         x2=b;
         x3=c;
 	if((a>b)&(a>c))
-{$('txt').value=''+a;
+{$('tx4').value=''+a;
 }
-        else if((b>a)&(b>c))
-{$('txt').value=''+b;
+else 
+{$('tx4').value=''+b;
 }
-
-         else
-{$('txt').value=''+c;
+else
+{$('tx4').value=''+c;
 }
 }
     function f1()
@@ -38,13 +37,13 @@ return elements; }
         x2=b;
         x3=c;
 	if((a<b)&(a<c))
-{$('txt').value=''+a;
+{$('tx4').value=''+a;
 }
- else if((b<a)&(b<c))
-{$('txt').value=''+b;
+ else 
+{$('tx4').value=''+b;
 }
 
          else
-{$('txt').value=''+c;
+{$('tx4').value=''+c;
 }
 }
