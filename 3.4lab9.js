@@ -15,8 +15,8 @@ function f1()
 {A=parseFloat($('tt1').value);
  B=parseFloat($('tt2').value);
  N=parseFloat($('tt3').value);
-                     for(i=1;i<=N;i++) 
-		          {H=(B-A)/N;}
+                     
+		         {H=(B-A)/N;}
 		      $('tt4').value=H;
 }
 
