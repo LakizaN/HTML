@@ -10,29 +10,41 @@ elements.push(element);
 } 
 return elements; }
 
-function f2()
+   function f2()
 {
         a=parseFloat($('tx1').value);
 	b=parseFloat($('tx2').value);
+        c=parseFloat($('tx3').value);
         x1=a;
         x2=b;
-	if(a>b)
-{$('tx3').value=''+a;
+        x3=c;
+	if((a>b)&(a>c))
+{$('tx4').value=''+a;
 }
-else
-{$('tx3').value=''+b;
+        else if((b>a)&(b>c))
+{$('tx4').value=''+b;
+}
+
+         else
+{$('tx4').value=''+c;
 }
 }
-function f1()
+    function f1()
 {
         a=parseFloat($('tx1').value);
 	b=parseFloat($('tx2').value);
+        c=parseFloat($('tx3').value);
         x1=a;
         x2=b;
-	if(a<b)
-{$('tx3').value=''+a;
+        x3=c;
+	if((a<b)&(a<c))
+{$('tx4').value=''+a;
 }
-else
-{$('tx3').value=''+b;
+ else if((b<a)&(b<c))
+{$('tx4').value=''+b;
+}
+
+         else
+{$('tx4').value=''+c;
 }
 }
