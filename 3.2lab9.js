@@ -21,7 +21,7 @@ return elements; }
 	if((a>b)&(a>c))
 {$('tx4').value=''+a;
 }
-        else if((b>a)&(b>c))
+        else 
 {$('tx4').value=''+b;
 }
 
@@ -40,7 +40,7 @@ return elements; }
 	if((a<b)&(a<c))
 {$('tx4').value=''+a;
 }
- else if((b<a)&(b<c))
+ else 
 {$('tx4').value=''+b;
 }
 
