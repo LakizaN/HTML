@@ -15,7 +15,7 @@ str1='rgb('+b1+', '+g1+', '+r1+')';
 x1.style.backgroundColor="white";
 }
 function k()
-{t=setInterval('f()',100);}
+{t=setInterval('f()',1000);}
 function g()
 {
 clearInterval(t);
